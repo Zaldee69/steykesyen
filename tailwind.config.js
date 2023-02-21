@@ -1,9 +1,7 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}"
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
     screens: {
@@ -20,8 +18,8 @@ module.exports = {
       gamma: "#152C5B",
       psi: "#B0B0B0",
       error: "#E74C3C",
-      success: "#1ABC9C"
-    }
+      success: "#1ABC9C",
+    },
   },
   plugins: [],
-}
+};

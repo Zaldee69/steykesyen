@@ -1,46 +1,52 @@
+import { pathNameChecker } from "@/utility/pathnameChecker";
+import Hamburger from "hamburger-react";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
-import Hamburger from 'hamburger-react'
 import NavLink from "../navlink/NavLink";
 
-const Navbar: React.FC = () => {
+type Props = {
+  isOpen: boolean;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-  const [isOpen, setIsOpen] = useState<boolean>(false)
-
+const Navbar: React.FC<Props> = ({ isOpen, setIsOpen }) => {
   const router = useRouter();
-  const pathname = router.pathname
-
-  const pathNameChecker = (pathname: string, href: string) => {
-    if (pathname === href) {
-      return true;
-    }
-  };
+  const pathname = router.pathname;
 
   return (
     <nav className="flex justify-between items-center px-5 md:px-24 py-5 border-b">
       <div className="font-semibold text-2xl w-full md:w-fit flex justify-between items-center ">
         <div>
-        Stey<span className="text-alpha">kesyen</span>
+          Stey<span className="text-alpha">kesyen</span>
         </div>
-        <Hamburger toggled={isOpen} toggle={setIsOpen} color="#3252DF" />
+        <div className="md:hidden">
+          <Hamburger
+            toggled={isOpen}
+            toggle={setIsOpen}
+            color={isOpen ? "#fff" : "#3252DF"}
+          />
+        </div>
       </div>
       <ul className="gap-5 hidden md:flex">
         <NavLink
+          activeColor="text-alpha"
           isActive={pathNameChecker(pathname, "/")}
           title="Home"
           href="/"
         />
         <NavLink
+          activeColor="text-alpha"
           isActive={pathNameChecker(pathname, "browse-by")}
           title="Browse By"
           href="/browse-by"
         />
         <NavLink
+          activeColor="text-alpha"
           isActive={pathNameChecker(pathname, "stories")}
           title="Stories"
           href="/stories"
         />
         <NavLink
+          activeColor="text-alpha"
           isActive={pathNameChecker(pathname, "agents")}
           title="Agents"
           href="/agents"
@@ -49,6 +55,5 @@ const Navbar: React.FC = () => {
     </nav>
   );
 };
-
 
 export default Navbar;
