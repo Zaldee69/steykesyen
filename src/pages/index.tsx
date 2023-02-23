@@ -24,6 +24,7 @@ export default function Home() {
                   cardCustomSyle={el.id === 1 ? "md:row-span-3 object-fit" : ""}
                   imageCustomStyle={el.id === 1 ? "object-cover" : ""}
                   imageSrc={el.image.thumbnail}
+                  width="auto"
                 />
               ))}
             </div>

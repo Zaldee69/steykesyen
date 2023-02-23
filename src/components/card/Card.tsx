@@ -32,7 +32,7 @@ const Card: React.FC<Props> = (props) => {
         fill
         alt="apa aka"
       />
-      <article className="absolute text-white bottom-7 left-7">
+      <article className="absolute text-white bottom-5 left-5">
         <p>{props.title}</p>
         <p className="text-sm font-thin">{props.location}</p>
       </article>
