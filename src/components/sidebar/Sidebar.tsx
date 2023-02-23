@@ -12,8 +12,8 @@ const Sidebar: React.FC<Props> = ({ isOpen }) => {
   const pathname = router.pathname;
 
   return (
-    <div
-      className={`bg-alpha absolute w-full h-screen z-0 transition-all ease-in-out duration-300 ${
+    <aside
+      className={`bg-alpha absolute md:hidden w-full h-screen z-0 transition-all ease-in-out duration-300 ${
         !isOpen && "translate-x-full"
       } `}
     >
@@ -43,7 +43,7 @@ const Sidebar: React.FC<Props> = ({ isOpen }) => {
           href="/agents"
         />
       </ul>
-    </div>
+    </aside>
   );
 };
 

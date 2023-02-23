@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Head from "next/head";
@@ -19,9 +20,12 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Sidebar isOpen={isOpen} />
-      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
-      <main className="md:px-24 px-5">{children}</main>
+      <div className="relative overflow-hidden">
+        <Sidebar isOpen={isOpen} />
+        <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
+        <main className="md:px-24 px-5">{children}</main>
+        <Footer />
+      </div>
     </>
   );
 };

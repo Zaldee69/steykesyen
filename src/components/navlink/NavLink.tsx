@@ -3,14 +3,25 @@ import React from "react";
 
 type TNavLinkProps = {
   title: string;
-  isActive: boolean | undefined;
+  isActive?: boolean | undefined;
   href: string;
-  activeColor: string;
+  activeColor?: string;
+  color?: string;
 };
 
-const NavLink = ({ title, isActive, href, activeColor }: TNavLinkProps) => {
+const NavLink = ({
+  title,
+  isActive,
+  href,
+  activeColor,
+  color,
+}: TNavLinkProps) => {
   return (
-    <li className={`${isActive ? activeColor : "text-gamma"} hover:text-alpha`}>
+    <li
+      className={`${
+        isActive ? activeColor : color ? color : "text-gamma"
+      } hover:text-alpha`}
+    >
       <Link href={href}>{title}</Link>
     </li>
   );

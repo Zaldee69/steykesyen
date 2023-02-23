@@ -17,6 +17,8 @@ module.exports = {
       beta: "#FF498B",
       gamma: "#152C5B",
       psi: "#B0B0B0",
+      sigma: "#B3B3B3",
+      omega: "#F5F6F8",
       error: "#E74C3C",
       success: "#1ABC9C",
     },
