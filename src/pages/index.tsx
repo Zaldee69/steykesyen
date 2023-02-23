@@ -2,7 +2,7 @@ import Card from "@/components/card/Card";
 import Hero from "@/components/hero/Hero";
 import BaseLayout from "@/components/layouts/base/BaseLayout";
 import { data } from "@/fake-data";
-import { Carousel, ScrollingCarousel } from "@trendyol-js/react-carousel";
+import { ScrollingCarousel } from "@trendyol-js/react-carousel";
 
 export default function Home() {
   return (
