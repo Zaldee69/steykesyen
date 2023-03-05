@@ -5,7 +5,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -34,7 +34,7 @@ export const data = [
     title: "Ocean Land",
     location: "Bandung, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -62,7 +62,7 @@ export const data = [
     title: "Vina Vill",
     location: "Malang, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -90,7 +90,7 @@ export const data = [
     title: "Stark House",
     location: "Malang, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -118,7 +118,7 @@ export const data = [
     title: "Bobox",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -146,7 +146,7 @@ export const data = [
     title: "Tobby Town",
     location: "Gunung Baru, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -174,7 +174,7 @@ export const data = [
     title: "Zaldee House",
     location: "Bogor, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -202,7 +202,7 @@ export const data = [
     title: "Seattle Rain",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -230,7 +230,7 @@ export const data = [
     title: "Wodden Pit",
     location: "Wonosobo, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -258,7 +258,7 @@ export const data = [
     title: "Rumah Hantu",
     location: "Jepara, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -286,7 +286,7 @@ export const data = [
     title: "Joyfull Land",
     location: "Bekasi, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -314,7 +314,7 @@ export const data = [
     title: "Rumah Sehat",
     location: "Jakarta Selatan, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -342,7 +342,7 @@ export const data = [
     title: "Green Park",
     location: "Banyuwangi, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -370,7 +370,7 @@ export const data = [
     title: "Podo Wae",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -398,7 +398,7 @@ export const data = [
     title: "Toku House",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -426,7 +426,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -454,7 +454,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -482,7 +482,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -510,7 +510,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -538,7 +538,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -566,7 +566,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -594,7 +594,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -622,7 +622,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -650,7 +650,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -678,7 +678,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -706,7 +706,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -734,7 +734,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {
@@ -762,7 +762,7 @@ export const data = [
     title: "Blue Origin Fams",
     location: "Jakarta, Indonesia",
     label: "",
-    price: "50",
+    price: "72383",
     about:
       "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
     facility: {

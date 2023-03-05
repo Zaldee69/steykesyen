@@ -1,6 +1,7 @@
 import Card from "@/components/card/Card";
 import Hero from "@/components/hero/Hero";
 import BaseLayout from "@/components/layouts/base/BaseLayout";
+import UserStory from "@/components/user-story/UserStory";
 import { data } from "@/fake-data";
 import { ScrollingCarousel } from "@trendyol-js/react-carousel";
 
@@ -15,11 +16,13 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-x-3 gap-y-3 mt-5">
               {data.slice(0, 5).map((el) => (
                 <Card
+                  isLink
                   key={el.id}
+                  id={el.id}
                   title={el.title}
                   location="Jakarta, Indonesia"
                   label="per night"
-                  labelStrong={el.price}
+                  labelStrong={Number(el.price)}
                   height={el.id === 1 ? "md:h-[97.5%] h-[215px]" : ""}
                   cardCustomSyle={el.id === 1 ? "md:row-span-3 object-fit" : ""}
                   imageCustomStyle={el.id === 1 ? "object-cover" : ""}
@@ -38,6 +41,7 @@ export default function Home() {
             <ScrollingCarousel className="mt-5">
               {data.slice(6, 13).map((el) => (
                 <Card
+                  isLink
                   key={el.id}
                   title={el.title}
                   location="Jakarta, Indonesia"
@@ -46,6 +50,7 @@ export default function Home() {
                   imageSrc={el.image.thumbnail}
                   width="w-[263px]"
                   height="h-[180px]"
+                  id={el.id}
                 />
               ))}
             </ScrollingCarousel>
@@ -59,7 +64,9 @@ export default function Home() {
             <ScrollingCarousel className="mt-5">
               {data.slice(5, 13).map((el) => (
                 <Card
+                  isLink
                   key={el.id}
+                  id={el.id}
                   title={el.title}
                   location="Jakarta, Indonesia"
                   label={el.id === 1 || el.id === 8 ? "Choice" : ""}
@@ -77,22 +84,25 @@ export default function Home() {
             <h1 className="text-gamma font-medium text-xl">
               Apartments with kitchen set
             </h1>
-            <ScrollingCarousel className="mt-5">
-              {data.slice(0, 8).map((el) => (
-                <Card
-                  key={el.id}
-                  title={el.title}
-                  location="Jakarta, Indonesia"
-                  label={el.id === 1 || el.id === 8 ? "Choice" : ""}
-                  labelStrong="Popular"
-                  imageSrc={el.image.thumbnail}
-                  width="w-[263px]"
-                  height="h-[180px]"
-                />
-              ))}
-            </ScrollingCarousel>
           </article>
+          <ScrollingCarousel className="mt-5">
+            {data.slice(0, 8).map((el) => (
+              <Card
+                isLink
+                key={el.id}
+                title={el.title}
+                id={el.id}
+                location="Jakarta, Indonesia"
+                label={el.id === 1 || el.id === 8 ? "Choice" : ""}
+                labelStrong="Popular"
+                imageSrc={el.image.thumbnail}
+                width="w-[263px]"
+                height="h-[180px]"
+              />
+            ))}
+          </ScrollingCarousel>
         </section>
+        <UserStory />
       </BaseLayout>
     </>
   );

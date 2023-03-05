@@ -2,13 +2,14 @@ import Image from "next/image";
 
 type Props = {
   image: string;
-  amount: number;
+  amount: number | string;
   title: string;
+  customContainerStyle?: string;
 };
 
 const IconGroup: React.FC<Props> = (props) => {
   return (
-    <div>
+    <div className={props.customContainerStyle}>
       <Image
         src={`/images/${props.image}.svg`}
         height={30}

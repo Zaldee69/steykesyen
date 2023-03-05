@@ -11,9 +11,17 @@ const Sidebar: React.FC<Props> = ({ isOpen }) => {
   const router = useRouter();
   const pathname = router.pathname;
 
+  React.useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isOpen]);
+
   return (
     <aside
-      className={`bg-alpha absolute md:hidden w-full h-screen z-0 transition-all ease-in-out duration-300 ${
+      className={`bg-alpha absolute md:hidden w-full h-full overflow-hidden z-0 transition-all ease-in-out duration-300 ${
         !isOpen && "translate-x-full"
       } `}
     >

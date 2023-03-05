@@ -4,6 +4,7 @@ type Props = {
   width?: string;
   color?: string;
   type: "primary" | "secondary";
+  customStyle?: string;
   onClickAction?: (
     _action: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => void;
@@ -16,7 +17,7 @@ const Button: React.FC<Props> = (props) => {
         props.type === "primary"
           ? "bg-alpha text-white shadow-[0_8px_15px_rgba(50,82,223,0.3)] "
           : "bg-omega text-sigma"
-      } h-10 rounded`}
+      } h-10 rounded ${props.customStyle} `}
       onClick={props.onClickAction}
     >
       {props.title}

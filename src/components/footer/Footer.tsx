@@ -3,7 +3,7 @@ import NavLink from "../navlink/NavLink";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col justify-between py-10 md:px-24 px-5 space-y-8 lg:flex-row lg:space-y-0">
+      <div className="flex flex-col justify-between py-10 md:px-24 px-5 max-w-screen-xl mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <div className="font-semibold text-2xl md:text-3xl w-full md:w-fit flex justify-between items-center ">
             <div>
